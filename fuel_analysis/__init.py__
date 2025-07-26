@@ -1,0 +1,29 @@
+"""
+fuel_analysis
+-------------
+
+A package for ingesting, cleaning, merging, analyzing, and visualizing 
+NSW FuelCheck fuel price data with postcode geolocation information.
+
+Modules:
+- ingestion: load and clean fuel data and postcodes
+- merge_geo: merge fuel data with geographic coordinates
+- aggregation: aggregate fuel prices and compute change metrics
+- visualization: generate insights and plots
+"""
+
+__version__ = "1.0.1"
+__author__ = "Pranshu"
+
+# commonly used functions at package level
+from .ingestion import load_fuel_data, clean_fuel_data, load_postcodes
+from .merge_geo import merge_geo
+from .aggregation import (
+    aggregate_fuel_prices,
+    add_price_change_average,
+    add_price_change_previous
+)
+from .visualization import (
+    visualize_station_types,
+    visualize_regions
+)
