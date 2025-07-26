@@ -19,7 +19,7 @@ The project is written in **Python 3.13+** using **pandas**, **numpy**, and **ma
 ---
 
 ## 📂 Project Structure
-
+```
 fuel-analysis/
 │
 ├── data/ # input data files
@@ -37,7 +37,7 @@ fuel-analysis/
 ├── main.py # entry point
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📦 Installation
