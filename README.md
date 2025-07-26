@@ -42,18 +42,22 @@ fuel-analysis/
 
 ## 📦 Installation
 
-1. Clone the repository:  
+1. Clone the repository:
+```bash
 git clone https://github.com/<your-username>/fuel-analysis.git  
 cd fuel-analysis  
-
-2. Set up a virtual environment:  
+```
+3. Set up a virtual environment:
+```bash 
 python3 -m venv venv  
 source venv/bin/activate      # On Linux/Mac  
-venv\Scripts\activate         # On Windows  
+venv\Scripts\activate         # On Windows
+``` 
 
-3. Install dependencies:  
+5. Install dependencies:
+```bash  
 pip install -r requirements.txt  
-
+``` 
 ---
 
 ## ▶️ Running the Analysis
