@@ -44,7 +44,7 @@ fuel-analysis/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/fuel-analysis.git  
+git clone https://github.com/Pranshu-2601/Nsw-Fuel-Analysis.git
 cd fuel-analysis  
 ```
 3. Set up a virtual environment:
